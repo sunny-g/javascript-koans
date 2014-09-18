@@ -29,9 +29,9 @@ describe("About Functions", function() {
   it("should have lexical scoping", function () {
     var variable = "top-level";
     function parentfunction() {
-        var variable = "local";
+      var variable = "local";
       function childfunction() {
-          return variable;
+        return variable;
       }
       return childfunction();
     }
@@ -103,6 +103,6 @@ describe("About Functions", function() {
       //An internal comment
       return a * b;
     };
-    expect(multiply.toString()).toBe(multiply.toString());
+    expect(multiply.toString()).toBe('function (a, b) {\n//An internal comment\nreturn a * b;\n}');
   });    
 });
