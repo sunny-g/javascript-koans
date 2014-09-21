@@ -29,7 +29,7 @@ arrays:
 * use for-with-semicolon iteration
 
 functions:
-* func.length === 0
+* func.length === 0     // useful for something else
 
 arguments obj & func params
 * useful when you don't know how many args you'll have or if you cant name them
@@ -60,12 +60,11 @@ FUNCTIONS
 
  */
 
-// MUTABILITY
+//**********    MUTABILITY   **********
 /*
- */
 
-// HIGHER-ORDER FUNCTIONS
-/*
+*
+
  */
 
 // INHERITANCE

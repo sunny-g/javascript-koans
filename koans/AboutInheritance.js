@@ -3,7 +3,7 @@ function Muppet(age, hobby) {
   this.hobby = hobby; 
   
   this.answerNanny = function(){
-	return "Everything's cool!";
+		return "Everything's cool!";
   }
 }
 
